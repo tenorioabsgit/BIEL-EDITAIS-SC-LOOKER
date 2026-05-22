@@ -1,0 +1,29 @@
+# --- Sessao e estado do R / RStudio ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# --- Logs ---
+*.log
+
+# --- Credenciais: NUNCA versionar chaves de acesso ---
+credentials/
+*-key.json
+*service-account*.json
+client_secret*.json
+BigQuery.json
+dou-sc.json
+gcp-key.json
+
+# --- Dados gerados pela execucao ---
+backup_bases/
+arquivos_downloaded/
+*.rds
+base_consolidada*.csv
+base_final*.csv
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+*.desktop
