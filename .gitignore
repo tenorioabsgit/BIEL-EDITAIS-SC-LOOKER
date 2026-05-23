@@ -4,6 +4,13 @@
 .Ruserdata
 .Rproj.user/
 
+# --- renv: nao versionar a library, apenas o lockfile ---
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/staging/
+
 # --- Logs ---
 *.log
 
@@ -15,6 +22,9 @@ client_secret*.json
 BigQuery.json
 dou-sc.json
 gcp-key.json
+
+# --- Config local (segredos) ---
+config/config.local.yml
 
 # --- Dados gerados pela execucao ---
 backup_bases/

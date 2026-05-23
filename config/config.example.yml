@@ -1,0 +1,20 @@
+portal:
+  base_url: "https://sistemas4.sc.gov.br/sea/portaldecompras"
+
+raspagem:
+  anos: [2024]
+  situacao: 4
+  max_paginas: 500
+
+paths:
+  data_raw: "data-raw"
+  pdfs:    "arquivos_downloaded/pdfs"
+  docs:    "arquivos_downloaded/docs"
+  backups: "backup_bases"
+
+bigquery:
+  email:    "seu-email@exemplo.com"
+  key_path: "credentials/bigquery.json"
+  project:  "SEU_PROJETO_GCP"
+  dataset:  "projeto_dou_sc"
+  table:    "tabela_dou_sc"

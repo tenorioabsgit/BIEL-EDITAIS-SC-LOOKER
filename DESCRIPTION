@@ -1,0 +1,33 @@
+Package: biel
+Title: BIEL - Robo Buscador de Informacoes em Editais de Licitacao
+Version: 2.0.0
+Authors@R:
+    person("Jose Tenorio ABS Junior", , , "tenorioabs@gmail.com",
+           role = c("aut", "cre"))
+Description: Pipeline em R que monitora o Portal de Compras de Santa
+    Catarina, raspa metadados e conteudo dos editais de licitacao, e
+    carrega o resultado no Google BigQuery para consumo em Looker Studio.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    bigrquery,
+    DBI,
+    dplyr,
+    fs,
+    httr,
+    janitor,
+    pdftools,
+    plyr,
+    purrr,
+    readr,
+    readxl,
+    rvest,
+    splitstackshape,
+    stringr,
+    tibble,
+    tidyr,
+    xml2,
+    yaml
+SystemRequirements: LibreOffice (para conversao DOC -> PDF)
